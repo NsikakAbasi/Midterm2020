@@ -12,9 +12,15 @@ import java.util.Scanner;
  * change the code to use enum instead String and add object oriented principles satisfy as comment in the code
  * @author sivagamasrinivasan
  * date 02/19
+ * Modifier NsikakAbasi Ibangha
  */
-public class ArithmeticBase 
-{
+public class ArithmeticBase {
+    public enum OPERATIONS {PLUS,MINUX,TIMES,DIVIDE};
+    private OPERATIONS op;
+    
+    public void ArithemticBase(OPERATIONS s){
+        op = s;
+    }
  public double x,y;
     double calculate(double x, double y) 
         {

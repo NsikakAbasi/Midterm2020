@@ -2,6 +2,7 @@
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
+
  */
 package arithmetic;
 
@@ -13,6 +14,7 @@ import java.util.Scanner;
  * execute the code check the output
  * @author sivagamasrinivasan
  * date 02/19
+ * Modifier NsikakAbasi Ibangha
  */
 public class Arithmetic 
 {
